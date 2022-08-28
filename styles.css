@@ -1,0 +1,150 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner, .top-fold {
+    display: flex;
+    background: #1f2937;
+    padding: 10px 100px;
+}
+
+.top-fold {
+    height: 20%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content h2 {
+    font-size: 26pt;
+
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #588cd6;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px
+}
+
+.logo {
+    font-size: 30pt;
+    font-weight: bold;
+    color:aliceblue;
+    margin-right: auto;
+}
+
+.nav {
+    margin-left:auto;
+}
+
+.nav a {
+    font-size: 16pt;
+    margin: 0px 10px;
+}
+
+.nav a:link {
+    color:beige;
+}
+
+.nav a:visited {
+    color:antiquewhite;
+}
+
+.intro, .call-to-action {
+    color:whitesmoke;
+    padding: 16px;
+}
+
+.intro h1 {
+    font-size: 36pt;
+    font-weight: bolder;
+}
+
+.intro p {
+    font-size: 18pt;
+}
+
+.image {
+    size:auto;
+    padding: 20px;
+}
+
+.image img{
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+.quote-banner {
+    background-color: rgb(238, 238, 238);
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 24pt;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+.quote-attribution {
+    margin-right: 150px;
+    text-align: right;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.cta-container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    background-color: #3882F6;
+    border: 0px solid;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action {
+    margin: 50px 0px;
+}
+
+.call-to-action h2 {
+    color: whitesmoke;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.call-to-action p {
+    color: whitesmoke;
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+.cta-container button {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
