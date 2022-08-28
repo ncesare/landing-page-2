@@ -2,6 +2,10 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body {
+    margin:0;
+}
+
 .banner, .top-fold {
     display: flex;
     background: #1f2937;
